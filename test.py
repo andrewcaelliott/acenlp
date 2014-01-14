@@ -166,7 +166,7 @@ sampleText = """
 12:25pm - Douglas Fraser, Business and economy editor, Scotland tweets: Global Energy Group (Aberdeen, Inverness, Nigg etc) reports year to March sales +43% to 358m GBP, earnings double to $34m
 """
 
-sampleText = """
+sampleText0 = """
 The opportunity to interview Dr Tom Stuttaford came up thanks to a chance encounter at the Norfolk-and-Norwich University Hospital.
 
 My colleague, photographer Bill Smith took a picture of Dr Tom Stuttaford just as he was leaving the hospital earlier this month.
@@ -185,3 +185,5 @@ anonSentences =  anonymizeText(sampleText)
 
 for sentence in anonSentences:
     print repr(sentence)
+
+print "that's all folks"
